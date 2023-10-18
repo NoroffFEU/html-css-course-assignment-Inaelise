@@ -76,3 +76,8 @@ footer {
   font-weight: 600;
   margin-left: -3rem;
 }
+
+.socials i {
+  color: #be8e2e;
+  margin-right: 0.5rem;
+}

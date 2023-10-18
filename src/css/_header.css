@@ -49,3 +49,7 @@ header form {
   justify-content: end;
   padding-right: 0.8rem;
 }
+
+header i {
+  color: #ffffff;
+}
