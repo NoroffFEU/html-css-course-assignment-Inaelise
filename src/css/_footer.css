@@ -34,11 +34,11 @@ footer {
 .links a,
 .newsletter-form p {
   font-weight: 600;
-  color: #be8e2e;
+  color: var(--color-orange);
 }
 
 .links a:hover {
-  color: #ffffff;
+  color: var(--color-white);
   border: none;
 }
 
@@ -71,13 +71,13 @@ footer {
 
 .newsletter-form input[type="submit"] {
   width: 7rem;
-  background-color: #be8e2e;
-  color: #ffffff;
+  background-color: var(--color-orange);
+  color: var(--color-white);
   font-weight: 600;
   margin-left: -3rem;
 }
 
 .socials i {
-  color: #be8e2e;
+  color: var(--color-orange);
   margin-right: 0.5rem;
 }
