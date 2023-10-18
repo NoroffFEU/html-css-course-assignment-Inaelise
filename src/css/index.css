@@ -1,6 +1,7 @@
 @import url("./_header.css");
 @import url("./_home-main.css");
 @import url("./_footer.css");
+@import url("./_about.css");
 @import url("./_variables.css");
 
 *,
@@ -30,4 +31,11 @@ a {
 
 a:hover {
   border-bottom: 1px solid var(--color-white);
+}
+
+h1 {
+  color: var(--color-blue);
+  font-size: var(--font-large);
+  font-weight: var(--weight-large);
+  margin: 0;
 }
