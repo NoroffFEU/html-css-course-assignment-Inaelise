@@ -1,0 +1,36 @@
+@import url("./_header.css");
+@import url("./_home-main.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #b6bac1;
+}
+
+header,
+footer {
+  background-color: #0f2247;
+  color: #ffffff;
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  border-bottom: 1px solid #ffffff;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 100, "wght" 400, "GRAD" 0, "opsz" 24;
+}
