@@ -93,6 +93,7 @@ main h2 {
   border: 1px solid #0f224773;
   padding: 1rem;
   background-color: transparent;
+  height: 410px;
 }
 
 .featured-products img {
