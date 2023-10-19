@@ -1,0 +1,51 @@
+.contact-container {
+  background-color: var(--color-white);
+  display: flex;
+  width: 920px;
+  height: 542px;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  position: absolute;
+  left: 150px;
+  top: 260px;
+  box-shadow: 1px 1px 5px #00000037;
+}
+
+.contact-container i {
+  color: var(--color-blue);
+  margin-right: 1rem;
+}
+
+.banner-logo {
+  background-color: var(--color-orange);
+  position: relative;
+  height: 350px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.banner-logo img {
+  width: 40%;
+  opacity: 0.1;
+  float: right;
+  margin-top: 4rem;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.location-info,
+.phone-info,
+.hours-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
