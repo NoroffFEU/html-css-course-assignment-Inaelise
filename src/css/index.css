@@ -11,10 +11,25 @@
 }
 
 body {
+  display: grid;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
   box-sizing: border-box;
   margin: 0;
   font-family: var(--font-main);
   background-color: var(--color-grey);
+}
+
+header {
+  grid-area: header;
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
 }
 
 header,
