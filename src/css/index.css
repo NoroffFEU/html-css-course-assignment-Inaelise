@@ -39,3 +39,7 @@ h1 {
   font-weight: var(--weight-large);
   margin: 0;
 }
+
+.active {
+  border-bottom: 1px solid var(--color-white);
+}
