@@ -28,16 +28,10 @@
 }
 
 .home-cta {
-  background-color: var(--color-orange);
   padding: 20px 70px;
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 1.7em;
-}
-
-.home-cta:hover {
-  background-color: var(--color-blue);
-  color: var(--color-white);
 }
 
 .cta-container {
@@ -86,7 +80,7 @@
   color: var(--color-blue);
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: var(--font-small);
 }
 
 .div-border {

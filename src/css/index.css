@@ -44,17 +44,27 @@ a {
   color: var(--color-white);
 }
 
-a:hover {
+header a:hover,
+footer a:hover {
   border-bottom: 1px solid var(--color-white);
 }
 
 h1 {
   color: var(--color-blue);
   font-size: var(--font-large);
-  font-weight: var(--weight-large);
+  font-weight: var(--weight-x-large);
   margin: 0;
 }
 
 .active {
   border-bottom: 1px solid var(--color-white);
+}
+
+.cta {
+  background-color: var(--color-orange);
+}
+
+.cta:hover {
+  background-color: var(--color-blue);
+  color: var(--color-white);
 }
