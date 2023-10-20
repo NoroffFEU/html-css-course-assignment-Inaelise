@@ -4,8 +4,8 @@
   width: 920px;
   height: 542px;
   justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 5rem;
   position: absolute;
   left: 150px;
   top: 260px;
@@ -40,6 +40,13 @@
 .contact-info {
   display: flex;
   flex-direction: column;
+  gap: 2.5rem;
+  font-size: var(--font-small);
+  margin-bottom: 100px;
+}
+
+.contact-info p {
+  margin: 5px;
 }
 
 .location-info,
@@ -48,4 +55,32 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.contact-form {
+  display: flex;
+  align-items: center;
+}
+
+.contact-form input,
+textarea {
+  width: 370px;
+  padding: 0.6rem;
+  font-size: var(--font-small);
+  margin-bottom: 2rem;
+  border: 3px solid #0f22478f;
+  border-radius: 3px;
+}
+
+.contact-form input[type="submit"] {
+  border: none;
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  width: 220px;
+  font-weight: var(--weight-medium);
+  padding: 0.8rem;
+}
+
+.contact-form textarea {
+  font-family: var(--font-main);
 }
