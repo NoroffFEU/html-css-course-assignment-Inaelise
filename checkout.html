@@ -59,10 +59,43 @@
     </header>
 
     <main>
+      <h1>Shopping cart</h1>
       <div class="cart-container">
-        <div class="shopping-cart"></div>
-        <div class="shipping-billing-info">
-          <form class="shipping-form" method="GET">
+        <div class="shopping-cart">
+          <p>1 Item</p>
+          <hr />
+          <div>
+            <p>Rainydays</p>
+            <p>Warm fleece</p>
+            <i class="fa-solid fa-trash-can"></i>
+          </div>
+          <div>
+            <p>Size:</p>
+            <p>Large</p>
+          </div>
+          <div>
+            <p>Color:</p>
+            <p>Green/brown</p>
+          </div>
+          <div>
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" id="quantity" value="1" />
+          </div>
+          <p>NOK 350.00</p>
+          <hr />
+          <div>
+            <p>Shipping</p>
+            <p>NOK 59.00</p>
+          </div>
+          <hr />
+          <div>
+            <p>Total amount to pay</p>
+            <p>NOK 409.00</p>
+          </div>
+        </div>
+        <form class="checkout-form" action="GET">
+          <h2>1. Shipping and billing information</h2>
+          <div class="shipping-billing-info">
             <input
               type="text"
               name="fname"
@@ -112,10 +145,66 @@
               placeholder="Name*"
               required
             />
-          </form>
-        </div>
-        <div class="shipping-method"></div>
-        <div class="payment-method"></div>
+            <input
+              type="checkbox"
+              name="delivery-address"
+              id="delivery-address"
+            />
+            <label for="delivery-address"
+              >Send to a different delivery address?</label
+            >
+          </div>
+          <h2>2. Choose shipping method</h2>
+          <div class="shipping-method">
+            <div>
+              <input
+                type="radio"
+                name="shipping"
+                id="eco-shipping"
+                value="eco-shipping"
+                checked
+              />
+              <label for="eco-shipping"
+                >Eco friendly shipping - NOK 59.00</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="shipping"
+                id="express-shipping"
+                value="express-shipping"
+              />
+              <label for="express-shipping">Express shipping - NOK 89.00</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="shipping"
+                id="prio-shipping"
+                value="prio-shipping"
+              />
+              <label for="prio-shipping">Priority shipping - NOK 109.00</label>
+            </div>
+          </div>
+          <h2>3. Choose payment method</h2>
+          <div class="payment-method">
+            <div>
+              <input
+                type="radio"
+                name="payment"
+                id="card-payment"
+                value="card-payment"
+              />
+              <label for="card-payment">Card payment</label>
+            </div>
+            <div>
+              <input type="radio" name="payment" id="paypal" value="paypal" />
+              <label for="paypal">PayPal</label>
+            </div>
+          </div>
+          <input type="submit" value="Confirm purchase" />
+        </form>
       </div>
     </main>
 
