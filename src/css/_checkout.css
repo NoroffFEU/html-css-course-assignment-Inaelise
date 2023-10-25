@@ -31,6 +31,7 @@
 .cart-container hr {
   background-color: var(--color-blue);
   opacity: 0.6;
+  width: 100%;
 }
 
 .shipping-method label,
@@ -44,4 +45,31 @@
 
 .shopping-cart i {
   color: var(--color-blue);
+}
+
+.cart-part-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-last {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  gap: 15rem;
+}
+
+.flex-last p {
+  margin: 0;
+}
+
+.cart-part-one img {
+  max-width: 170px;
+}
+
+#quantity {
+  max-width: 4.5rem;
+  height: 2rem;
+  text-align: center;
 }
