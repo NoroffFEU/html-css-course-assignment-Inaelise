@@ -41,3 +41,7 @@
 .shipping-billing-info {
   display: grid;
 }
+
+.shopping-cart i {
+  color: var(--color-blue);
+}
