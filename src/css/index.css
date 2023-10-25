@@ -70,3 +70,16 @@ h1 {
   background-color: var(--color-blue);
   color: var(--color-white);
 }
+
+input,
+textarea {
+  font-size: var(--font-small);
+  margin-bottom: 2rem;
+  padding: 0.6rem;
+  border: 2px solid #0f22478f;
+  border-radius: 3px;
+}
+
+input[type="search"] {
+  margin-bottom: 0;
+}

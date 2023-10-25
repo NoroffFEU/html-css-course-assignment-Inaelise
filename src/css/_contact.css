@@ -66,10 +66,6 @@
 textarea {
   width: 370px;
   padding: 0.6rem;
-  font-size: var(--font-small);
-  margin-bottom: 2rem;
-  border: 3px solid #0f22478f;
-  border-radius: 3px;
 }
 
 .contact-form input[type="submit"] {

@@ -57,7 +57,6 @@
         />
       </form>
     </header>
-
     <main class="checkout-main">
       <h1>Shopping cart</h1>
       <div class="cart-container">
@@ -96,20 +95,22 @@
         <form class="checkout-form" action="GET">
           <h2>1. Shipping and billing information</h2>
           <div class="shipping-billing-info">
-            <input
-              type="text"
-              name="fname"
-              id="fname"
-              placeholder="First name*"
-              required
-            />
-            <input
-              type="text"
-              name="lname"
-              id="lname"
-              placeholder="Last name*"
-              required
-            />
+            <div>
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                placeholder="First name*"
+                required
+              />
+              <input
+                type="text"
+                name="lname"
+                id="lname"
+                placeholder="Last name*"
+                required
+              />
+            </div>
             <input
               type="email"
               name="email"
@@ -124,27 +125,37 @@
               placeholder="Address*"
               required
             />
-            <input
-              type="number"
-              name="p-code"
-              id="p-code"
-              placeholder="Postal code*"
-              required
-            />
-            <input
-              type="text"
-              name="city"
-              id="city"
-              placeholder="City*"
-              required
-            />
-            <input
-              type="text"
-              name="name"
-              id="name"
-              placeholder="Name*"
-              required
-            />
+            <div>
+              <input
+                type="number"
+                name="p-code"
+                id="p-code"
+                placeholder="Postal code*"
+                required
+              />
+              <input
+                type="text"
+                name="city"
+                id="city"
+                placeholder="City*"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Phone number (optional)"
+              />
+              <input
+                type="text"
+                name="country"
+                id="country"
+                placeholder="Country*"
+                required
+              />
+            </div>
             <input
               type="checkbox"
               name="delivery-address"
