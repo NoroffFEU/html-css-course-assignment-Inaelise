@@ -68,17 +68,17 @@
               <img src="./assets/images/RainyDays_Jacket7.jpg" />
             </div>
             <div>
-              <div>
+              <div class="cart-product-name">
                 <p>Rainydays</p>
-                <p>Warm fleece</p>
+                <p class="description">Warm fleece</p>
               </div>
-              <div>
+              <div class="cart-product-size">
                 <p>Size:</p>
-                <p>Large</p>
+                <p class="description">Large</p>
               </div>
-              <div>
+              <div class="cart-product-color">
                 <p>Color:</p>
-                <p>Green/brown</p>
+                <p class="description">Green/brown</p>
               </div>
               <div>
                 <label for="quantity">Quantity:</label>
@@ -92,17 +92,17 @@
               </div>
             </div>
             <div class="flex-last">
-              <i class="fa-solid fa-trash-can fa-lg"></i>
+              <span><i class="fa-solid fa-trash-can fa-lg"></i></span>
               <p>NOK 350.00</p>
             </div>
           </div>
           <hr />
-          <div>
+          <div class="cart-shipping-price">
             <p>Shipping</p>
             <p>NOK 59.00</p>
           </div>
           <hr />
-          <div>
+          <div class="cart-total-amount">
             <p>Total amount to pay</p>
             <p>NOK 409.00</p>
           </div>
@@ -171,14 +171,17 @@
                 required
               />
             </div>
-            <input
-              type="checkbox"
-              name="delivery-address"
-              id="delivery-address"
-            />
-            <label for="delivery-address"
-              >Send to a different delivery address?</label
-            >
+            <div>
+              <label class="checkbox-container"
+                >Send to a different delivery address?
+                <input
+                  type="checkbox"
+                  name="delivery-address"
+                  id="delivery-address"
+                />
+                <span class="checkmark"></span>
+              </label>
+            </div>
           </div>
           <h2>2. Choose shipping method</h2>
           <div class="shipping-method">
