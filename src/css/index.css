@@ -64,6 +64,7 @@ h1 {
 
 .cta {
   background-color: var(--color-orange);
+  color: var(--color-white);
 }
 
 .cta:hover {
