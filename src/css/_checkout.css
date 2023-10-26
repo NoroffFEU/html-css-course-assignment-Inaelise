@@ -10,6 +10,12 @@
   margin-top: 3rem;
 }
 
+.checkout-main h2 {
+  margin: 0;
+  margin-top: 4rem;
+  font-size: var(--font-medium);
+}
+
 .shopping-cart,
 .shipping-billing-info,
 .shipping-method,
@@ -125,6 +131,19 @@
   font-size: var(--font-x-small);
 }
 
+.cta-checkout {
+  border: none;
+  border-radius: 0;
+  padding: 1rem 6rem;
+  font-weight: var(--weight-large);
+  text-transform: uppercase;
+  margin: 3rem;
+}
+
+.submit-container {
+  text-align: center;
+}
+
 /* Custom checkbox/radio button */
 .checkbox-container,
 .radio-container {
@@ -190,7 +209,7 @@
   transform: rotate(45deg);
 }
 
-/* Radio buttons */
+/* Radio button */
 .radio-container {
   max-width: 60rem;
   margin: auto;
