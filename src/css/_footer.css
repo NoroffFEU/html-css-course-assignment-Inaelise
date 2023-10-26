@@ -69,12 +69,17 @@ footer {
   font-size: 1rem;
 }
 
+.newsletter-form input:focus {
+  outline: none;
+}
+
 .newsletter-form input[type="submit"] {
   width: 7rem;
   background-color: var(--color-orange);
   color: var(--color-white);
   font-weight: 600;
   margin-left: -3rem;
+  cursor: pointer;
 }
 
 .socials i {
