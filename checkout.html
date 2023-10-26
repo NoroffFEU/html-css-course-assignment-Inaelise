@@ -95,7 +95,7 @@
               </div>
             </div>
             <div class="flex-last">
-              <span><i class="fa-solid fa-trash-can fa-lg"></i></span>
+              <span><i class="fa-solid fa-trash-can fa-xl"></i></span>
               <p>NOK 350.00</p>
             </div>
           </div>
@@ -189,50 +189,94 @@
           <h2>2. Choose shipping method</h2>
           <div class="shipping-method">
             <div>
-              <input
-                type="radio"
-                name="shipping"
-                id="eco-shipping"
-                value="eco-shipping"
-                checked
-              />
-              <label for="eco-shipping"
-                >Eco friendly shipping - NOK 59.00</label
-              >
+              <label class="radio-container"
+                ><div>
+                  <p>Eco friendly shipping - NOK 59.00</p>
+                  <p class="description">7-10 business days</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-leaf fa-xl"></i>
+                </div>
+                <input
+                  type="radio"
+                  name="shipping"
+                  id="eco-shipping"
+                  value="eco-shipping"
+                  checked
+                /><span class="checkmark"></span>
+              </label>
             </div>
             <div>
-              <input
-                type="radio"
-                name="shipping"
-                id="express-shipping"
-                value="express-shipping"
-              />
-              <label for="express-shipping">Express shipping - NOK 89.00</label>
+              <label class="radio-container">
+                <div>
+                  <p>Express shipping - NOK 89.00</p>
+                  <p class="description">2-5 business days</p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-truck fa-xl"></i>
+                </div>
+                <input
+                  type="radio"
+                  name="shipping"
+                  id="express-shipping"
+                  value="express-shipping"
+                />
+                <span class="checkmark"></span>
+              </label>
             </div>
             <div>
-              <input
-                type="radio"
-                name="shipping"
-                id="prio-shipping"
-                value="prio-shipping"
-              />
-              <label for="prio-shipping">Priority shipping - NOK 109.00</label>
+              <label class="radio-container">
+                <div>
+                  <p>Priority shipping - NOK 109.00</p>
+                  <p class="description">
+                    Same day delivery (only in Norway), order before 10AM
+                  </p>
+                </div>
+                <div>
+                  <i class="fa-solid fa-truck fa-xl"></i>
+                </div>
+                <input
+                  type="radio"
+                  name="shipping"
+                  id="prio-shipping"
+                  value="prio-shipping"
+                />
+                <span class="checkmark"></span>
+              </label>
             </div>
           </div>
           <h2>3. Choose payment method</h2>
           <div class="payment-method">
             <div>
-              <input
-                type="radio"
-                name="payment"
-                id="card-payment"
-                value="card-payment"
-              />
-              <label for="card-payment">Card payment</label>
+              <label class="radio-container">
+                <div>
+                  <p>Card payment</p>
+                  <p class="description">No extra fees</p>
+                </div>
+                <div>
+                  <i class="fa-regular fa-credit-card fa-xl"></i>
+                </div>
+                <input
+                  type="radio"
+                  name="payment"
+                  id="card-payment"
+                  value="card-payment"
+                />
+                <span class="checkmark"></span>
+              </label>
             </div>
             <div>
-              <input type="radio" name="payment" id="paypal" value="paypal" />
-              <label for="paypal">PayPal</label>
+              <label class="radio-container">
+                <div>
+                  <p>PayPal</p>
+                  <p class="description">No extra fees</p>
+                </div>
+                <div>
+                  <i class="fa-brands fa-paypal fa-xl"></i>
+                </div>
+                <input type="radio" name="payment" id="paypal" value="paypal" />
+                <span class="checkmark"></span>
+              </label>
             </div>
           </div>
           <input type="submit" value="Confirm purchase" />
