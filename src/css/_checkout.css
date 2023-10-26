@@ -109,6 +109,10 @@
   align-items: center;
 }
 
+.cart-product-color i {
+  color: #6a5e43;
+}
+
 .cart-shipping-price,
 .cart-total-amount {
   justify-content: space-between;
