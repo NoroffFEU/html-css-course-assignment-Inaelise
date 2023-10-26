@@ -122,12 +122,14 @@
   font-size: var(--font-x-small);
 }
 
+/* Custom checkbox */
 .checkbox-container {
   display: block;
-  position: relative;
   padding-left: 2.5rem;
   margin: 1rem 0.5rem;
+  position: relative;
   cursor: pointer;
+  max-width: 23rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -138,16 +140,14 @@
   position: absolute;
   opacity: 0;
   cursor: pointer;
-  height: 0;
-  width: 0;
 }
 
 .checkmark {
   position: absolute;
   top: 0;
   left: 0;
-  height: 25px;
-  width: 25px;
+  width: 1.5rem;
+  height: 1.5rem;
   border: 1px solid var(--color-blue);
 }
 
