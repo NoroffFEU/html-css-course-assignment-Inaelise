@@ -25,6 +25,11 @@
 
 .success-background i {
   margin-top: 5rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-size: 3.8rem;
+}
+
+.success-background p {
+  margin: 0;
+  line-height: var(--line-height);
 }
