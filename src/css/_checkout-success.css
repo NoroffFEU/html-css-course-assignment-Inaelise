@@ -33,3 +33,13 @@
   margin: 0;
   line-height: var(--line-height);
 }
+
+.cta-success-container {
+  margin-top: 25rem;
+}
+
+.success-cta {
+  padding: 0.5rem 3rem;
+  font-size: var(--font-small);
+  font-weight: var(--weight-medium);
+}
