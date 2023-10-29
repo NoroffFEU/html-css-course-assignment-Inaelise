@@ -24,4 +24,6 @@
   --weight-medium: 500;
   --weight-large: 700;
   --weight-x-large: 900;
+
+  --box-shadow: 1px 1px 5px #00000037;
 }
