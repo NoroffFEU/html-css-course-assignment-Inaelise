@@ -4,6 +4,7 @@
 @import url("./_about.css");
 @import url("./_contact.css");
 @import url("./_checkout.css");
+@import url("_checkout-success.css");
 @import url("./_variables.css");
 
 *,
