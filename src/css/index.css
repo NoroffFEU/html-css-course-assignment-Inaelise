@@ -54,7 +54,7 @@ footer a:hover {
 
 h1 {
   color: var(--color-blue);
-  font-size: var(--font-large);
+  font-size: var(--font-x-large);
   font-weight: var(--weight-x-large);
   margin: 0;
 }
