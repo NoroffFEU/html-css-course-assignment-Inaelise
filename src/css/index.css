@@ -75,7 +75,7 @@ h1 {
 
 input,
 textarea {
-  font-size: var(--font-small);
+  font-size: var(--font-form);
   margin-bottom: 2rem;
   padding: 0.6rem;
   border: 3px solid #0f224750;

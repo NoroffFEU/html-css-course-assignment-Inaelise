@@ -33,7 +33,7 @@
 .checkout-form label,
 .shopping-cart label {
   font-weight: var(--weight-large);
-  font-size: var(--font-small);
+  font-size: var(--font-form);
 }
 
 .shopping-cart p {
@@ -232,7 +232,7 @@
 
 .shipping-method p,
 .payment-method p {
-  font-size: var(--font-small);
+  font-size: var(--font-form);
   margin: 0.5rem;
 }
 
