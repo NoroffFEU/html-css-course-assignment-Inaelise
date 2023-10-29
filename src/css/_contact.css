@@ -9,7 +9,7 @@
   position: absolute;
   left: 150px;
   top: 260px;
-  box-shadow: 1px 1px 5px #00000037;
+  box-shadow: var(--box-shadow);
 }
 
 .contact-container i {
