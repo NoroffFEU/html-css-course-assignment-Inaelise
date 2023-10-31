@@ -3,12 +3,11 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 
 .products-container {
   display: grid;
-  gap: 7.7rem;
+  gap: 5rem;
   grid-template-columns: 1fr 1fr 1fr;
   margin: 3rem 0rem;
 }
@@ -28,22 +27,87 @@
   border-radius: var(--radius-standard);
 }
 
-.jackets img {
+.jacket-product-image {
   width: 100%;
-  max-width: 350px;
+  max-width: 250px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-img {
   background-image: url(/assets/images/levi-kyiv-ho-IQ17ig24-unsplash2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 900px;
+  width: 100%;
   height: 530px;
 
   box-shadow: var(--box-shadow);
 }
 
-.bleh {
+.responsive-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7.5rem;
+}
+
+.product-details {
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
+}
+
+.color-detail {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.product-p {
+  margin: 0.5rem 0rem;
+  font-size: var(--font-form);
+}
+
+.jacket-img .product-name {
+  text-transform: uppercase;
+  color: var(--color-blue);
+  font-weight: var(--weight-large);
+}
+
+.color-detail p {
+  font-size: var(--font-x-small);
+}
+
+/* Product buttons */
+.add-to-cart {
+  color: var(--color-white);
+  background-color: var(--color-orange);
+  border: none;
+  padding: 0.5rem 0.7rem;
+  cursor: pointer;
+}
+
+.buttons a {
+  background-color: var(--color-blue);
+  padding: 0.35rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: var(--weight-medium);
+}
+
+.buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0rem;
+  justify-content: center;
+}
+
+/* Color circles */
+
+.circle-green {
+  color: #6a5e43;
+}
+
+.circle-black {
+  color: black;
 }
