@@ -53,4 +53,50 @@
 .individual-main h2 {
   text-transform: uppercase;
   font-weight: var(--weight-small);
+  margin: 0;
+}
+
+.product-description p {
+  font-size: var(--font-small);
+  line-height: var(--line-height);
+  margin: 2.5rem 0rem;
+}
+
+.page-info {
+  font-size: var(--font-form);
+  font-weight: var(--weight-medium);
+}
+
+.product-choice {
+  font-size: var(--font-small);
+  font-weight: var(--weight-large);
+}
+
+.size-guide {
+  font-size: var(--font-x-small);
+  text-decoration: underline;
+}
+
+.size-guide:hover {
+  cursor: pointer;
+}
+
+.info-links a {
+  color: black;
+  text-decoration: underline;
+}
+
+.info-links a:hover {
+  color: var(--color-orange);
+}
+
+.add-to-cart {
+  background-color: var(--color-orange);
+  color: var(--color-white);
+  padding: 1rem 4rem;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: var(--font-medium);
+  font-weight: var(--weight-large);
+  margin: 1rem 0rem;
 }
