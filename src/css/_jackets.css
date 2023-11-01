@@ -5,6 +5,10 @@
   margin-top: 2rem;
 }
 
+.jackets-main h1 {
+  margin-left: 1rem;
+}
+
 .products-container {
   display: grid;
   gap: 5rem;
