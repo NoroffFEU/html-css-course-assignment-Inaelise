@@ -19,6 +19,10 @@ header img {
   max-width: 5rem;
 }
 
+.img-link:hover {
+  border: none;
+}
+
 header ul {
   display: flex;
   padding: 0;
