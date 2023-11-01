@@ -21,15 +21,15 @@
 }
 
 .p-content {
-  padding: 2rem 15rem;
+  padding: 2rem 5rem;
   font-size: var(--font-small);
   line-height: var(--line-height);
 }
 
 .p-content img {
-  width: 7%;
+  width: 6%;
   opacity: 0.7;
-  margin: 2rem;
+  margin: 1rem 0rem;
 }
 
 .about-cta {
@@ -39,5 +39,5 @@
 }
 
 .about-cta-div {
-  margin: 2rem 0rem;
+  margin-top: 1rem;
 }
