@@ -90,13 +90,19 @@
   color: var(--color-orange);
 }
 
-.add-to-cart {
+.product-add-to-cart {
   background-color: var(--color-orange);
   color: var(--color-white);
   padding: 1rem 4rem;
+  border: none;
   border-radius: 0;
   text-transform: uppercase;
   font-size: var(--font-medium);
   font-weight: var(--weight-large);
   margin: 1rem 0rem;
+}
+
+.product-add-to-cart:hover {
+  background-color: var(--color-blue);
+  cursor: pointer;
 }
