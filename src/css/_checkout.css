@@ -61,7 +61,7 @@
 }
 
 .shipping-billing-info label {
-  font-weight: var(--weight-small);
+  font-weight: var(--weight-x-small);
 }
 
 .shopping-cart i {
@@ -131,7 +131,7 @@
 .shopping-cart .description,
 .shipping-method .description,
 .payment-method .description {
-  font-weight: var(--weight-small);
+  font-weight: var(--weight-x-small);
   font-size: var(--font-x-small);
 }
 

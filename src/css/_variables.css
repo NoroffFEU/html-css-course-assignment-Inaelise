@@ -23,7 +23,8 @@
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
 
-  --weight-small: 300;
+  --weight-x-small: 300;
+  --weight-small: 400;
   --weight-medium: 500;
   --weight-large: 700;
   --weight-x-large: 900;
