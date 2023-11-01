@@ -92,11 +92,19 @@
   cursor: pointer;
 }
 
+.add-to-cart:hover {
+  background-color: #0f2247bd;
+}
+
 .buttons a {
   background-color: var(--color-blue);
   padding: 0.35rem 1.5rem;
   text-transform: uppercase;
   font-weight: var(--weight-medium);
+}
+
+.buttons a:hover {
+  background-color: #0f2247bd;
 }
 
 .buttons {
