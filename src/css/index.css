@@ -8,6 +8,7 @@
 @import url("_checkout.css");
 @import url("_checkout-success.css");
 @import url("_variables.css");
+@import url("_media.css");
 
 *,
 *::before,
