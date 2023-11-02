@@ -13,7 +13,7 @@
 
 .success-background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("/assets/images/ansgar-scheffold-IZZ78Ugqsow-unsplash.jpg");
+    url("../../assets/images/ansgar-scheffold-IZZ78Ugqsow-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: 1300px;
   width: 1200px;
