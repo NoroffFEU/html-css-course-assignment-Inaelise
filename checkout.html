@@ -39,12 +39,16 @@
       <input type="checkbox" id="hamburger-menu" />
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="jackets.html">Jackets</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="index.html" title="Go to home page">Home</a></li>
+          <li><a href="about.html" title="Go to about page">About</a></li>
+          <li>
+            <a href="jackets.html" title="Go to jackets page">Jackets</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Go to contact page">Contact</a>
+          </li>
           <li class="list-item">
-            <a class="active" href="checkout.html">
+            <a class="active" href="checkout.html" title="Go to checkout page">
               <i
                 class="fa-solid fa-cart-shopping"
                 aria-label="Shopping cart icon"
@@ -99,11 +103,18 @@
                   id="quantity"
                   value="1"
                   inputmode="numeric"
+                  title="Enter quantity here"
+                  aria-label="quantity input"
                 />
               </div>
             </div>
             <div class="flex-last">
-              <span><i class="fa-solid fa-trash-can fa-xl"></i></span>
+              <span
+                ><i
+                  class="fa-solid fa-trash-can fa-xl"
+                  aria-label="trassh icon"
+                ></i
+              ></span>
               <p>NOK 350.00</p>
             </div>
           </div>
@@ -126,6 +137,8 @@
                 type="text"
                 name="fname"
                 id="fname"
+                title="Enter your first name here"
+                aria-label="first name input"
                 placeholder="First name*"
                 required
               />
@@ -133,6 +146,8 @@
                 type="text"
                 name="lname"
                 id="lname"
+                title="Enter your last name here"
+                aria-label="last name input"
                 placeholder="Last name*"
                 required
               />
@@ -141,6 +156,8 @@
               type="email"
               name="email"
               id="email"
+              title="Enter your email here"
+              aria-label="email input"
               placeholder="Email*"
               required
             />
@@ -148,6 +165,8 @@
               type="text"
               name="address"
               id="address"
+              title="Enter your address here"
+              aria-label="address input"
               placeholder="Address*"
               required
             />
@@ -156,6 +175,8 @@
                 type="number"
                 name="p-code"
                 id="p-code"
+                title="Enter your postal code here"
+                aria-label="postal code input"
                 placeholder="Postal code*"
                 required
               />
@@ -163,6 +184,8 @@
                 type="text"
                 name="city"
                 id="city"
+                title="Enter your city here"
+                aria-label="city input"
                 placeholder="City*"
                 required
               />
@@ -172,12 +195,16 @@
                 type="tel"
                 name="phone"
                 id="phone"
+                title="Enter your phone number here"
+                aria-label="phone number input"
                 placeholder="Phone number (optional)"
               />
               <input
                 type="text"
                 name="country"
                 id="country"
+                title="Enter your country here"
+                aria-label="country input"
                 placeholder="Country*"
                 required
               />
@@ -189,6 +216,8 @@
                   type="checkbox"
                   name="delivery-address"
                   id="delivery-address"
+                  title="Check this if you want a different delivery address"
+                  aria-label="checkbox"
                 />
                 <span class="checkmark"></span>
               </label>
@@ -203,13 +232,15 @@
                   <p class="description">7-10 business days</p>
                 </div>
                 <div>
-                  <i class="fa-solid fa-leaf fa-xl"></i>
+                  <i class="fa-solid fa-leaf fa-xl" aria-label="leaf icon"></i>
                 </div>
                 <input
                   type="radio"
                   name="shipping"
                   id="eco-shipping"
                   value="eco-shipping"
+                  title="Click to choose eco friendly shipping"
+                  aria-label="radio button"
                   checked
                 /><span class="checkmark"></span>
               </label>
@@ -221,13 +252,18 @@
                   <p class="description">2-5 business days</p>
                 </div>
                 <div>
-                  <i class="fa-solid fa-truck fa-xl"></i>
+                  <i
+                    class="fa-solid fa-truck fa-xl"
+                    aria-label="truck icon"
+                  ></i>
                 </div>
                 <input
                   type="radio"
                   name="shipping"
                   id="express-shipping"
                   value="express-shipping"
+                  title="Click to choose express shipping"
+                  aria-label="radio button"
                 />
                 <span class="checkmark"></span>
               </label>
@@ -241,13 +277,18 @@
                   </p>
                 </div>
                 <div>
-                  <i class="fa-solid fa-truck fa-xl"></i>
+                  <i
+                    class="fa-solid fa-truck fa-xl"
+                    aria-label="truck icon"
+                  ></i>
                 </div>
                 <input
                   type="radio"
                   name="shipping"
                   id="prio-shipping"
                   value="prio-shipping"
+                  title="Click to choose priority shipping"
+                  aria-label="radio button"
                 />
                 <span class="checkmark"></span>
               </label>
@@ -262,13 +303,18 @@
                   <p class="description">No extra fees</p>
                 </div>
                 <div>
-                  <i class="fa-regular fa-credit-card fa-xl"></i>
+                  <i
+                    class="fa-regular fa-credit-card fa-xl"
+                    aria-label="credit card icon"
+                  ></i>
                 </div>
                 <input
                   type="radio"
                   name="payment"
                   id="card-payment"
                   value="card-payment"
+                  title="Click to choose card payment"
+                  aria-label="radio button"
                 />
                 <span class="checkmark"></span>
               </label>
@@ -280,9 +326,19 @@
                   <p class="description">No extra fees</p>
                 </div>
                 <div>
-                  <i class="fa-brands fa-paypal fa-xl"></i>
+                  <i
+                    class="fa-brands fa-paypal fa-xl"
+                    aria-label="paypal icon"
+                  ></i>
                 </div>
-                <input type="radio" name="payment" id="paypal" value="paypal" />
+                <input
+                  type="radio"
+                  name="payment"
+                  id="paypal"
+                  value="paypal"
+                  title="Click to choose paypal payment"
+                  aria-label="radio button"
+                />
                 <span class="checkmark"></span>
               </label>
             </div>
@@ -292,6 +348,8 @@
               class="cta cta-checkout"
               type="submit"
               value="Confirm purchase"
+              title="Click to confirm purchase"
+              aria-label="submit button"
             />
           </div>
         </form>
