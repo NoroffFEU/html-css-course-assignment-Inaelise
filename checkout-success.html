@@ -47,7 +47,7 @@
             <a class="active" href="checkout.html">
               <i
                 class="fa-solid fa-cart-shopping"
-                aria-label="Shopping cart"
+                aria-label="Shopping cart icon"
               ></i>
             </a>
           </li>
@@ -58,13 +58,18 @@
           type="search"
           name="search"
           id="search"
+          title="Search here"
+          aria-label="Search input"
           placeholder="Search..."
         />
       </form>
     </header>
     <main class="success-main">
       <div class="success-background">
-        <i class="fa-regular fa-circle-check fa-2xl"></i>
+        <i
+          class="fa-regular fa-circle-check fa-2xl"
+          aria-label="success icon"
+        ></i>
         <h2>Thank you for your purchase!</h2>
         <p>Order #0004268</p>
         <p>Order confirmation and tracking info will be emailed to you.</p>
@@ -89,10 +94,17 @@
               type="news-email"
               name="news-email"
               id="news-email"
+              title="Enter your email"
+              aria-label="Email input"
               placeholder="Your email here"
               required
             />
-            <input type="submit" value="Sign up" />
+            <input
+              type="submit"
+              value="Sign up"
+              title="Sign up here"
+              aria-label="Submit button"
+            />
           </form>
         </div>
       </div>

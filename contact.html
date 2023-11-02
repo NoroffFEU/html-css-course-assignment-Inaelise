@@ -47,7 +47,7 @@
             <a href="checkout.html">
               <i
                 class="fa-solid fa-cart-shopping"
-                aria-label="Shopping cart"
+                aria-label="Shopping cart icon"
               ></i>
             </a>
           </li>
@@ -58,6 +58,8 @@
           type="search"
           name="search"
           id="search"
+          title="Search here"
+          aria-label="Search input"
           placeholder="Search..."
         />
       </form>
@@ -75,6 +77,8 @@
               name="name"
               id="name"
               placeholder="Name*"
+              title="Enter your name"
+              aria-label="Email input"
               required
             />
             <input
@@ -82,6 +86,8 @@
               name="email"
               id="email"
               placeholder="Email*"
+              title="Enter your email"
+              aria-label="Email input"
               required
             />
             <textarea
@@ -90,14 +96,24 @@
               cols="32"
               rows="5"
               placeholder="Your message*"
+              title="Enter your message"
+              aria-label="Message input"
               required
             ></textarea>
-            <input type="submit" value="Send" />
+            <input
+              type="submit"
+              value="Send"
+              title="Send message"
+              aria-label="Submit button"
+            />
           </form>
         </div>
         <div class="contact-info">
           <div class="location-info">
-            <i class="fa-solid fa-location-dot fa-lg"></i>
+            <i
+              class="fa-solid fa-location-dot fa-lg"
+              aria-label="location icon"
+            ></i>
             <div>
               <p>Bryggen 43</p>
               <p>5003 Bergen</p>
@@ -105,11 +121,11 @@
             </div>
           </div>
           <div class="phone-info">
-            <i class="fa-solid fa-phone fa-lg"></i>
+            <i class="fa-solid fa-phone fa-lg" aria-label="Hour icon"></i>
             <p>+4746812737</p>
           </div>
           <div class="hours-info">
-            <i class="fa-solid fa-clock fa-lg"></i>
+            <i class="fa-solid fa-clock fa-lg" aria-label="Phone icon"></i>
             <div>
               <p>Mon - fri: 10am - 8pm</p>
               <p>Sat: 10am - 6pm</p>
@@ -135,10 +151,17 @@
               type="news-email"
               name="news-email"
               id="news-email"
+              title="Enter your email"
               placeholder="Your email here"
+              aria-label="Email input"
               required
             />
-            <input type="submit" value="Sign up" />
+            <input
+              type="submit"
+              value="Sign up"
+              title="Sign up here"
+              aria-label="Submit button"
+            />
           </form>
         </div>
       </div>
