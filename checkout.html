@@ -109,12 +109,12 @@
               </div>
             </div>
             <div class="flex-last">
-              <span
-                ><i
+              <span>
+                <i
                   class="fa-solid fa-trash-can fa-xl"
-                  aria-label="trassh icon"
-                ></i
-              ></span>
+                  aria-label="trash icon"
+                ></i>
+              </span>
               <p>NOK 350.00</p>
             </div>
           </div>
@@ -129,7 +129,7 @@
             <p>NOK 409.00</p>
           </div>
         </div>
-        <form class="checkout-form" action="GET">
+        <form class="checkout-form" action="checkout-success.html">
           <h2>1. Shipping and billing information</h2>
           <div class="shipping-billing-info">
             <div>
@@ -210,14 +210,15 @@
               />
             </div>
             <div>
-              <label class="checkbox-container"
+              <label
+                class="checkbox-container"
+                title="Check this if you want a different delivery address"
+                aria-label="checkbox"
                 >Send to a different delivery address?
                 <input
                   type="checkbox"
                   name="delivery-address"
                   id="delivery-address"
-                  title="Check this if you want a different delivery address"
-                  aria-label="checkbox"
                 />
                 <span class="checkmark"></span>
               </label>
@@ -226,50 +227,55 @@
           <h2>2. Choose shipping method</h2>
           <div class="shipping-method">
             <div>
-              <label class="radio-container"
-                ><div>
+              <label
+                class="radio-container"
+                title="Click to choose eco friendly shipping"
+                aria-label="radio button"
+              >
+                <div>
                   <p>Eco friendly shipping - NOK 59.00</p>
                   <p class="description">7-10 business days</p>
                 </div>
                 <div>
-                  <i class="fa-solid fa-leaf fa-xl" aria-label="leaf icon"></i>
+                  <i class="fa-solid fa-leaf fa-xl"></i>
                 </div>
                 <input
                   type="radio"
                   name="shipping"
                   id="eco-shipping"
                   value="eco-shipping"
-                  title="Click to choose eco friendly shipping"
-                  aria-label="radio button"
                   checked
                 /><span class="checkmark"></span>
               </label>
             </div>
             <div>
-              <label class="radio-container">
+              <label
+                class="radio-container"
+                title="Click to choose express shipping"
+                aria-label="radio button"
+              >
                 <div>
                   <p>Express shipping - NOK 89.00</p>
                   <p class="description">2-5 business days</p>
                 </div>
                 <div>
-                  <i
-                    class="fa-solid fa-truck fa-xl"
-                    aria-label="truck icon"
-                  ></i>
+                  <i class="fa-solid fa-truck fa-xl"></i>
                 </div>
                 <input
                   type="radio"
                   name="shipping"
                   id="express-shipping"
                   value="express-shipping"
-                  title="Click to choose express shipping"
-                  aria-label="radio button"
                 />
                 <span class="checkmark"></span>
               </label>
             </div>
             <div>
-              <label class="radio-container">
+              <label
+                class="radio-container"
+                title="Click to choose priority shipping"
+                aria-label="radio button"
+              >
                 <div>
                   <p>Priority shipping - NOK 109.00</p>
                   <p class="description">
@@ -277,18 +283,13 @@
                   </p>
                 </div>
                 <div>
-                  <i
-                    class="fa-solid fa-truck fa-xl"
-                    aria-label="truck icon"
-                  ></i>
+                  <i class="fa-solid fa-truck fa-xl"></i>
                 </div>
                 <input
                   type="radio"
                   name="shipping"
                   id="prio-shipping"
                   value="prio-shipping"
-                  title="Click to choose priority shipping"
-                  aria-label="radio button"
                 />
                 <span class="checkmark"></span>
               </label>
@@ -297,48 +298,41 @@
           <h2>3. Choose payment method</h2>
           <div class="payment-method">
             <div>
-              <label class="radio-container">
+              <label
+                class="radio-container"
+                title="Click to choose card payment"
+                aria-label="radio button"
+              >
                 <div>
                   <p>Card payment</p>
                   <p class="description">No extra fees</p>
                 </div>
                 <div>
-                  <i
-                    class="fa-regular fa-credit-card fa-xl"
-                    aria-label="credit card icon"
-                  ></i>
+                  <i class="fa-regular fa-credit-card fa-xl"></i>
                 </div>
                 <input
                   type="radio"
                   name="payment"
                   id="card-payment"
                   value="card-payment"
-                  title="Click to choose card payment"
-                  aria-label="radio button"
                 />
                 <span class="checkmark"></span>
               </label>
             </div>
             <div>
-              <label class="radio-container">
+              <label
+                class="radio-container"
+                title="Click to choose paypal payment"
+                aria-label="radio button"
+              >
                 <div>
                   <p>PayPal</p>
                   <p class="description">No extra fees</p>
                 </div>
                 <div>
-                  <i
-                    class="fa-brands fa-paypal fa-xl"
-                    aria-label="paypal icon"
-                  ></i>
+                  <i class="fa-brands fa-paypal fa-xl"></i>
                 </div>
-                <input
-                  type="radio"
-                  name="payment"
-                  id="paypal"
-                  value="paypal"
-                  title="Click to choose paypal payment"
-                  aria-label="radio button"
-                />
+                <input type="radio" name="payment" id="paypal" value="paypal" />
                 <span class="checkmark"></span>
               </label>
             </div>
