@@ -141,7 +141,7 @@
   cursor: pointer;
 }
 
-/* Custom radio button */
+/* Custom radio buttons */
 .color-selector,
 .size-selector {
   margin: 0;
@@ -197,5 +197,43 @@
 }
 
 .size-container {
-  font-size: var(--font-medium);
+  text-align: center;
+  position: relative;
+}
+
+.size-container i {
+  margin-top: 23px;
+}
+
+.size-selector {
+  display: flex;
+  gap: 1.5rem;
+  padding: 2rem 0rem;
+}
+
+.size-container input {
+  position: absolute;
+  top: 0.9rem;
+  right: 0.9rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-small,
+.radio-medium,
+.radio-large,
+.radio-x-large {
+  display: block;
+  border: 1px solid black;
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+}
+
+.size-container input:checked ~ .radio-small,
+.size-container input:checked ~ .radio-medium,
+.size-container input:checked ~ .radio-large,
+.size-container input:checked ~ .radio-x-large {
+  background-color: var(--color-blue);
+  color: var(--color-white);
 }
