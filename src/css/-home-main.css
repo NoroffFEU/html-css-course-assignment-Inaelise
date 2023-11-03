@@ -31,10 +31,16 @@
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 1.7em;
+  box-shadow: var(--box-shadow);
 }
 
 .cta-container {
   margin-top: 4rem;
+}
+
+.cta-container:hover {
+  transition: 0.8 ease;
+  transform: scale(1.05);
 }
 
 .home-content {

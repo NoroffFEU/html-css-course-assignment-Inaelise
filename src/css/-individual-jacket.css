@@ -134,11 +134,14 @@
   font-size: var(--font-larger);
   font-weight: var(--weight-large);
   margin: 1rem 0rem;
+  box-shadow: var(--box-shadow);
 }
 
 .product-add-to-cart:hover {
   background-color: var(--color-blue);
   cursor: pointer;
+  transition: 0.8 ease;
+  transform: scale(1.05);
 }
 
 /* Custom radio buttons */
@@ -237,4 +240,12 @@
 .size-container input:checked ~ .radio-x-large {
   background-color: var(--color-blue);
   color: var(--color-white);
+}
+
+.size-container input:hover ~ .radio-small,
+.size-container input:hover ~ .radio-medium,
+.size-container input:hover ~ .radio-large,
+.size-container input:hover ~ .radio-x-large {
+  transition: 0.8 ease;
+  transform: scale(1.05);
 }

@@ -49,9 +49,15 @@
   padding: 1rem 2.7rem;
   font-weight: var(--weight-medium);
   font-size: var(--font-medium);
+  box-shadow: var(--box-shadow);
 }
 
 .about-cta-div {
   margin-top: 1rem;
   margin-bottom: 5rem;
+}
+
+.about-cta-div:hover {
+  transition: 0.8 ease;
+  transform: scale(1.05);
 }
