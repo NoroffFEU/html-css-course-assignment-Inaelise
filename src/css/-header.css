@@ -3,7 +3,8 @@ header {
   align-items: center;
   /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: repeat(2, 1fr);
-  font-size: var(--font-medium);
+  font-size: var(--font-large);
+  padding: 1rem 0rem;
 }
 
 header .logo {
@@ -22,8 +23,7 @@ header .logo {
 .logo p {
   margin: 0;
   position: relative;
-  top: 10px;
-  left: 14px;
+  top: 16px;
 }
 
 header img {
@@ -50,10 +50,6 @@ header li {
   list-style: none;
   /* border-right: 1px solid var(--color-white); */
   border: 1px solid var(--color-white);
-}
-
-.list-item {
-  border: none;
 }
 
 header #search {
@@ -83,7 +79,7 @@ header label {
 nav {
   display: none;
   position: fixed;
-  top: 80px;
+  top: 118px;
   background-color: var(--color-blue);
   z-index: 1000;
   right: 0px;
