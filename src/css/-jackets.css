@@ -94,6 +94,7 @@
   padding: 1rem 1.9rem;
   cursor: pointer;
   font-size: var(--font-small);
+  box-shadow: var(--box-shadow);
 }
 
 .add-to-cart:hover {
@@ -106,6 +107,7 @@
   text-transform: uppercase;
   font-weight: var(--weight-medium);
   font-size: var(--font-small);
+  box-shadow: var(--box-shadow);
 }
 
 .buttons a:hover {
