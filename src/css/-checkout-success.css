@@ -38,10 +38,16 @@
 
 .cta-success-container {
   margin-top: 25rem;
+  display: inline-block;
 }
 
 .success-cta {
   padding: 1rem 3rem;
   font-size: var(--font-medium);
   font-weight: var(--weight-medium);
+}
+
+.cta-success-container:hover {
+  transition: 0.8 ease;
+  transform: scale(1.05);
 }

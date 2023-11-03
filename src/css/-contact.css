@@ -87,8 +87,14 @@ textarea {
   color: var(--color-white);
   background-color: var(--color-blue);
   width: 220px;
-  font-weight: var(--weight-medium);
+  font-weight: var(--weight-large);
   padding: 0.8rem;
+}
+
+.contact-form input[type="submit"]:hover {
+  transition: 0.8 ease;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .contact-form textarea {

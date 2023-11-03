@@ -142,6 +142,13 @@
   font-weight: var(--weight-large);
   text-transform: uppercase;
   margin: 3rem;
+  box-shadow: var(--box-shadow);
+}
+
+.cta-checkout:hover {
+  transition: 0.8 ease;
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
 .submit-container {

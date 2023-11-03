@@ -55,6 +55,7 @@
 .about-cta-div {
   margin-top: 1rem;
   margin-bottom: 5rem;
+  display: inline-block;
 }
 
 .about-cta-div:hover {
