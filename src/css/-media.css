@@ -61,6 +61,10 @@
     display: none;
   }
 
+  .list-item {
+    border: none;
+  }
+
   /* Home page */
   .home-banner {
     background-image: url("../../assets/images/banner.png");
