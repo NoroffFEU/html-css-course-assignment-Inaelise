@@ -238,4 +238,158 @@
   .color-detail svg {
     font-size: var(--font-x-small);
   }
+
+  /* Individual jacket page */
+  .individual-main {
+    max-width: 1300px;
+    margin: 2rem 0rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0rem 2rem;
+  }
+
+  .page-info {
+    font-size: var(--font-form);
+  }
+
+  .fleece-container {
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+  }
+
+  .container-background {
+    background-color: transparent;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .product-img-border {
+    border: 1px solid var(--color-blue);
+    padding: 1.5rem;
+    max-height: 675px;
+    margin: 0;
+    margin-bottom: 4;
+  }
+
+  .product-img-border {
+    border: 1px solid var(--color-blue);
+    padding: 1.5rem;
+    max-height: 675px;
+    margin: 0rem 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .product-img-border img {
+    max-width: 500px;
+  }
+
+  .individual-main h1 {
+    color: black;
+    font-size: var(--font-large);
+    font-weight: var(--weight-large);
+  }
+
+  .review-container {
+    gap: 0.5rem;
+  }
+
+  .review-container .fa-solid {
+    color: var(--color-orange);
+    font-size: var(--font-x-small);
+  }
+
+  .review-container .fa-regular,
+  .review-container p {
+    font-size: var(--font-x-small);
+  }
+
+  .individual-main h2 {
+    font-weight: var(--weight-small);
+    font-size: var(--font-form);
+  }
+
+  .product-description p {
+    font-size: var(--font-small);
+    line-height: var(--line-height);
+    margin: 2.5rem 0rem;
+  }
+
+  .product-choice {
+    font-size: var(--font-small);
+    font-weight: var(--weight-large);
+    margin-top: 0;
+  }
+
+  .color-selector {
+    gap: 3rem;
+  }
+
+  .color-container {
+    display: block;
+    position: relative;
+    padding-left: 3rem;
+    margin-bottom: 3rem;
+    cursor: pointer;
+    font-size: var(--font-small);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .radio-green,
+  .radio-black {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 2rem;
+    background-color: #6a5e43;
+    border-radius: 50%;
+  }
+
+  .radio-black {
+    background-color: black;
+  }
+
+  .color-container:hover input ~ .radio-green,
+  .color-container:hover input ~ .radio-black {
+    border: 3px solid var(--color-white);
+  }
+
+  .color-container input:checked ~ .radio-green,
+  .color-container input:checked ~ .radio-black {
+    border: 3px solid var(--color-white);
+  }
+
+  .size-container {
+    font-size: var(--font-small);
+  }
+
+  .size-guide {
+    font-size: var(--font-x-small);
+    text-decoration: underline;
+    margin-top: 0;
+  }
+
+  .input-btn-container {
+    text-align: left;
+  }
+
+  .info-links {
+    text-align: left;
+    font-size: var(--font-x-small);
+    margin: 0;
+  }
+
+  .info-links p {
+    margin: 1rem;
+  }
+
+  /* Contact page */
+
+  /* Checkout page */
+
+  /* Checkout success page */
 }
