@@ -1,37 +1,39 @@
 .success-main {
-  margin: 5rem 0rem;
+  margin: 0;
+  width: 100%;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
   color: var(--color-white);
-  font-size: var(--font-small);
+  font-size: var(--font-medium);
 }
 
-.success-main h2 {
-  font-size: var(--font-large);
+.success-text-content .bigger-p {
+  font-size: var(--font-larger);
+  font-weight: var(--weight-large);
+  margin: 2rem 0rem;
+  margin-bottom: 4rem;
 }
 
 .success-background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../../assets/images/ansgar-scheffold-IZZ78Ugqsow-unsplash.jpg");
+    url("../../assets/images/dmitry-limonov-ewM0ZVtYo14-unsplash.jpg");
   background-repeat: no-repeat;
-  background-size: 1300px;
-  width: 1200px;
-  min-height: 800px;
-  background-size: contain;
+  min-height: 1200px;
+  background-size: cover;
   background-position: center;
   box-shadow: var(--box-shadow);
 }
 
 .success-background i {
-  margin-top: 5rem;
-  margin-bottom: 1rem;
-  font-size: 3.8rem;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+  font-size: 9rem;
 }
 
 .success-background p {
   margin: 0;
-  line-height: var(--line-height);
+  line-height: 2.5rem;
 }
 
 .cta-success-container {
@@ -39,7 +41,7 @@
 }
 
 .success-cta {
-  padding: 0.5rem 3rem;
-  font-size: var(--font-small);
+  padding: 1rem 3rem;
+  font-size: var(--font-medium);
   font-weight: var(--weight-medium);
 }
