@@ -99,12 +99,12 @@
             <div>
               <p class="product-choice">Select color:</p>
               <div class="color-selector">
-                <label class="color-container"
+                <label class="color-container" title="Click to select green/brown" aria-label="radio button"
                   >Green/brown
                   <input type="radio" name="radio" />
                   <span class="radio-green"></span>
                 </label>
-                <label class="color-container"
+                <label class="color-container" title="Click to select black" aria-label="radio button"
                   >Black
                   <input type="radio" name="radio" />
                   <span class="radio-black"></span>
@@ -113,19 +113,19 @@
             <div>
               <p class="product-choice">Select size:</p>
               <div class="size-selector">
-                <label class="size-container"
+                <label class="size-container" title="Click to select size small" aria-label="radio button"
                   >S
                   <input type="radio" name="radio" />
                 </label>
-                <label class="size-container"
+                <label class="size-container" title="Click to select size medium" aria-label="radio button"
                   >M
                   <input type="radio" name="radio" />
                 </label>
-                <label class="size-container"
+                <label class="size-container" title="Click to select size large" aria-label="radio button"
                   >L
                   <input type="radio" name="radio" />
                 </label>
-                <label class="size-container"
+                <label class="size-container" title="Click to select size extra large" aria-label="radio button"
                   >XL
                   <input type="radio" name="radio" />
                 </label>
@@ -137,12 +137,14 @@
               class="product-add-to-cart"
               type="submit"
               value="add to cart"
+              title="Click to add item to cart"
+              aria-label="button"
             /></div>
           </form>
           <div class="info-links">
             <p>Free shipping above 1000kr</p>
-            <p><a href="#">Shipping and delivery</a></p>
-            <p><a href="#">Return policy</a></p>
+            <p><a href="#" title="Click to show info" aria-label="link to shipping and delivery info">Shipping and delivery</a></p>
+            <p><a href="#" title="Click to show info" aria-label="link to return policy info">Return policy</a></p>
           </div>
         </div>
       </div>
