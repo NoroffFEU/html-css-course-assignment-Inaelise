@@ -1,24 +1,25 @@
 .contact-h1 {
-  position: relative;
+  position: static;
   top: 7rem;
   left: 9.5rem;
-  display: inline;
+  display: block;
+  margin: 1rem 0 3rem 4.5rem;
 }
 
 .contact-container {
-  background-color: var(--color-white);
-  display: flex;
+  background-color: transparent;
+  display: block;
+  flex-direction: column;
   gap: 4rem;
-  max-width: 920px;
-  height: 542px;
-  padding: 0rem 5rem;
+  max-width: 100%;
+  padding: 0;
   justify-content: center;
   justify-content: space-evenly;
   align-items: center;
-  position: absolute;
+  position: static;
   left: 150px;
   top: 270px;
-  box-shadow: var(--box-shadow);
+  box-shadow: none;
 }
 
 .contact-container i {
@@ -27,7 +28,7 @@
 }
 
 .banner-logo {
-  display: flex;
+  display: none;
   background-color: var(--color-orange);
   position: relative;
   height: 350px;
@@ -48,15 +49,20 @@
 
 .contact-container form {
   display: flex;
+  gap: 2rem;
   flex-direction: column;
 }
 
 .contact-info {
+  background-color: var(--color-orange);
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
-  font-size: var(--font-form);
-  margin-bottom: 100px;
+  gap: 4rem;
+  font-size: var(--font-medium);
+  margin-bottom: 0;
+  width: 100%;
+  align-items: center;
+  padding: 2rem 0rem;
 }
 
 .contact-info p {
@@ -71,6 +77,10 @@
   align-items: center;
 }
 
+.hours-info {
+  margin-left: 6.5rem;
+}
+
 .contact-form {
   display: flex;
   align-items: center;
@@ -78,17 +88,20 @@
 
 .contact-form input,
 textarea {
-  width: 370px;
-  padding: 0.6rem;
+  width: 700px;
+  padding: 1.6rem;
+  font-size: var(--font-medium);
 }
 
 .contact-form input[type="submit"] {
   border: none;
   color: var(--color-white);
   background-color: var(--color-blue);
-  width: 220px;
+  width: 350px;
   font-weight: var(--weight-large);
-  padding: 0.8rem;
+  font-size: var(--font-large);
+  padding: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .contact-form input[type="submit"]:hover {
@@ -99,4 +112,5 @@ textarea {
 
 .contact-form textarea {
   font-family: var(--font-main);
+  font-size: var(--font-medium);
 }
