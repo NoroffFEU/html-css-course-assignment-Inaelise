@@ -1,5 +1,5 @@
 @media (min-width: 600px) {
-  /* Header page */
+  /* Header */
   nav {
     display: block;
     position: static;
@@ -526,4 +526,6 @@
     font-size: var(--font-small);
     font-weight: var(--weight-medium);
   }
+
+  /* Footer */
 }
