@@ -470,6 +470,7 @@
 
   .contact-container form {
     gap: 0;
+    padding: 0;
   }
 
   .contact-form input,
