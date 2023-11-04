@@ -81,6 +81,11 @@
                 alt="Image product of warm fleece"
               />
             </div>
+            <i
+              class="fa-solid fa-trash-can fa-xl trash-mobile"
+              aria-label="trash icon"
+            >
+            </i>
             <div>
               <div class="cart-product-name">
                 <p>Rainydays</p>
@@ -110,13 +115,14 @@
             </div>
             <div class="flex-last">
               <span>
-                <i
-                  class="fa-solid fa-trash-can fa-xl"
-                  aria-label="trash icon"
-                ></i>
+                <i class="fa-solid fa-trash-can fa-xl" aria-label="trash icon">
+                </i>
               </span>
-              <p>NOK 350.00</p>
             </div>
+          </div>
+          <div class="cart-subtotal">
+            <p>Subtotal</p>
+            <p>NOK 350.00</p>
           </div>
           <hr />
           <div class="cart-shipping-price">
@@ -132,8 +138,9 @@
         <form class="checkout-form" action="checkout-success.html">
           <h2>1. Shipping and billing information</h2>
           <div class="shipping-billing-info">
-            <div>
+            <div class="double-inputs">
               <input
+                class="checkout-input"
                 type="text"
                 name="fname"
                 id="fname"
@@ -143,6 +150,7 @@
                 required
               />
               <input
+                class="checkout-input"
                 type="text"
                 name="lname"
                 id="lname"
@@ -153,6 +161,7 @@
               />
             </div>
             <input
+              class="checkout-input"
               type="email"
               name="email"
               id="email"
@@ -162,6 +171,7 @@
               required
             />
             <input
+              class="checkout-input"
               type="text"
               name="address"
               id="address"
@@ -170,8 +180,9 @@
               placeholder="Address*"
               required
             />
-            <div>
+            <div class="double-inputs">
               <input
+                class="checkout-input"
                 type="number"
                 name="p-code"
                 id="p-code"
@@ -181,6 +192,7 @@
                 required
               />
               <input
+                class="checkout-input"
                 type="text"
                 name="city"
                 id="city"
@@ -190,8 +202,9 @@
                 required
               />
             </div>
-            <div>
+            <div class="double-inputs">
               <input
+                class="checkout-input"
                 type="tel"
                 name="phone"
                 id="phone"
@@ -200,6 +213,7 @@
                 placeholder="Phone number (optional)"
               />
               <input
+                class="checkout-input"
                 type="text"
                 name="country"
                 id="country"
