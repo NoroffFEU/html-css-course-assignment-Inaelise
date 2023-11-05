@@ -42,16 +42,10 @@
       <input type="checkbox" id="hamburger-menu" />
       <nav>
         <ul>
-          <li>
-            <a class="active" href="index.html" title="Go to home page">Home</a>
-          </li>
+          <li><a href="index.html" title="Go to home page">Home</a></li>
           <li><a href="about.html" title="Go to about page">About</a></li>
-          <li>
-            <a href="jackets.html" title="Go to jackets page">Jackets</a>
-          </li>
-          <li>
-            <a href="contact.html" title="Go to contact page">Contact</a>
-          </li>
+          <li><a class="active" href="jackets.html" title="Go to jackets page">Jackets</a></li>
+          <li><a href="contact.html" title="Go to contact page">Contact</a></li>
           <li class="list-item">
             <a href="checkout.html" title="Go to checkout page">
               <i
@@ -73,51 +67,90 @@
         />
       </form>
     </header>
-    <main>
-      <div class="home-banner">
-        <div>
-          <p class="banner-p">Rainydays</p>
-          <p class="banner-motto">Pushing the Comfort Zone</p>
+    <main class="individual-main">
+      <p class="page-info">Jackets / Fleece</p>
+      <div class="fleece-container">
+        <div class="product-img-border">
+          <div class="product-img-background">
+            <img src="./assets/images/RainyDays_Jacket7.jpg" alt="warm fleece jacket product image" />
+          </div>
         </div>
-      </div>
-      <div class="home-content">
-        <div class="home-text">
-          <div class="home-title">
-            <h1>When exploring the great outdoors,</h1>
-            <h2>the right gear can make all the difference.</h2>
-            <p class="home-content-p">
-              Discover the perfect blend of performance and affordability with
-              RAINYDAYS jackets.
+        <div class="container-background">
+          <div class="title-container">
+            <h1>Warm fleece</h1>
+            <div class="review-container">
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div>
+                <p>68</p>
+              </div>
+            </div>
+          </div>
+          <h2>nok 350.00</h2>
+          <div class="product-description">
+            <p>
+              Say goodbye to chilly days and embrace unmatched warmth with our
+              premium fleece jacket.
+            </p>
+            <p>
+              Crafted with the softest and most insulating fleece material, it's
+              designed to keep you snug in the coldest of conditions.
             </p>
           </div>
-          <div class="cta-container">
-            <a
-              href="jackets.html"
-              class="cta home-cta"
-              title="Click to shop"
-              aria-label="link"
-              >Shop now</a
-            >
-          </div>
-        </div>
-        <div class="featured-products">
-          <div class="div-border">
-            <div class="background-div">
-              <img
-                src="assets/images/RainyDays_Jacket1.jpg"
-                alt="Winter adventure jacket product image"
-              />
-              <p>Winter adventure</p>
+          <form>
+            <div>
+              <p class="product-choice">Select color:</p>
+              <div class="color-selector">
+                <label class="color-container" title="Click to select green/brown" aria-label="radio button" tabindex="0"
+                  >Green/brown
+                  <input type="radio" name="radio1" />
+                  <span class="radio-green"></span>
+                </label>
+                <label class="color-container" title="Click to select black" aria-label="radio button" tabindex="0"
+                  >Black
+                  <input type="radio" name="radio1" />
+                  <span class="radio-black"></span>
+                </label>
             </div>
-          </div>
-          <div class="div-border">
-            <div class="background-div">
-              <img
-                src="assets/images/RainyDays_Jacket3_flipped.jpg"
-                alt="Running jacket product image"
-              />
-              <p>Running</p>
+            <div>
+              <p class="product-choice">Select size:</p>
+              <div class="size-selector">
+                <label class="size-container" title="Click to select size small" aria-label="radio button" tabindex="0">
+                  <input type="radio" name="radio2" />
+                  <span class="radio-small"><i class="fa-solid fa-s fa-lg"></i></span>
+                </label>
+                <label class="size-container" title="Click to select size medium" aria-label="radio button" tabindex="0">
+                  <input type="radio" name="radio2" />
+                  <span class="radio-medium"><i class="fa-solid fa-m fa-lg"></i></span>
+                </label>
+                <label class="size-container" title="Click to select size large" aria-label="radio button" tabindex="0">
+                  <input type="radio" name="radio2" />
+                  <span class="radio-large"><i class="fa-solid fa-l fa-lg"></i></span>
+                </label>
+                <label class="size-container" title="Click to select size extra large" aria-label="radio button" tabindex="0">
+                  <input type="radio" name="radio2" />
+                  <span class="radio-x-large"><i class="fa-solid fa-x fa-lg"></i><i class="fa-solid fa-l fa-lg"></i></span>
+                </label>
             </div>
+            <p class="size-guide">Size guide</p>
+            <div class="input-btn-container">
+            <input
+              class="product-add-to-cart"
+              type="submit"
+              value="add to cart"
+              title="Click to add item to cart"
+              aria-label="button"
+            /></div>
+          </form>
+          <div class="info-links">
+            <p>Free shipping above 1000kr</p>
+            <p><a href="#" title="Click to show info" aria-label="link to shipping and delivery info">Shipping and delivery</a></p>
+            <p><a href="#" title="Click to show info" aria-label="link to return policy info">Return policy</a></p>
           </div>
         </div>
       </div>
@@ -140,7 +173,6 @@
               id="news-email"
               title="Enter your email"
               aria-label="Email input"
-              tabindex="0"
               placeholder="Your email here"
               required
             />
@@ -149,7 +181,6 @@
               value="Sign up"
               title="Click to sign up"
               aria-label="Submit button"
-              tabindex="0"
             />
           </form>
         </div>
