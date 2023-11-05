@@ -107,10 +107,6 @@ footer {
   font-size: var(--font-small);
 }
 
-.newsletter-form input:focus {
-  outline: none;
-}
-
 .newsletter-form input[type="submit"] {
   width: 9rem;
   background-color: var(--color-orange);
