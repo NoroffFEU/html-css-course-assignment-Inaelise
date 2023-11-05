@@ -111,6 +111,10 @@ textarea {
   cursor: pointer;
 }
 
+.contact-form input[type="submit"]:focus {
+  outline: 3px solid var(--color-orange);
+}
+
 .contact-form textarea {
   font-family: var(--font-main);
   font-size: var(--font-medium);
