@@ -330,7 +330,7 @@
 
   .individual-main h2 {
     font-weight: var(--weight-small);
-    font-size: var(--font-form);
+    font-size: var(--font-small);
   }
 
   .product-description p {

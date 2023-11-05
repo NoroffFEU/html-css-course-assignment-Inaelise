@@ -68,12 +68,12 @@
 .individual-main h2 {
   text-transform: uppercase;
   font-weight: var(--weight-small);
-  font-size: var(--font-large);
+  font-size: var(--font-larger);
   margin: 0;
 }
 
 .product-description p {
-  font-size: 2rem;
+  font-size: var(--font-large);
   line-height: 2.7rem;
   margin: 2.5rem 0rem;
 }
@@ -161,7 +161,7 @@
   padding-left: 4rem;
   margin-bottom: 4rem;
   cursor: pointer;
-  font-size: var(--font-medium);
+  font-size: var(--font-large);
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
