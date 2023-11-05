@@ -235,6 +235,7 @@
                 class="checkbox-container"
                 title="Check this if you want a different delivery address"
                 aria-label="checkbox"
+                tabindex="0"
                 >Send to a different delivery address?
                 <input
                   type="checkbox"
@@ -246,7 +247,7 @@
             </div>
           </div>
           <h2>2. Choose shipping method</h2>
-          <div class="shipping-method">
+          <div class="shipping-method" tabindex="0">
             <div>
               <label
                 class="radio-container"
@@ -263,7 +264,6 @@
                 <input
                   type="radio"
                   name="shipping"
-                  id="eco-shipping"
                   value="eco-shipping"
                   checked
                 /><span class="checkmark"></span>
@@ -282,12 +282,7 @@
                 <div>
                   <i class="fa-solid fa-truck fa-xl"></i>
                 </div>
-                <input
-                  type="radio"
-                  name="shipping"
-                  id="express-shipping"
-                  value="express-shipping"
-                />
+                <input type="radio" name="shipping" value="express-shipping" />
                 <span class="checkmark"></span>
               </label>
             </div>
@@ -306,18 +301,13 @@
                 <div>
                   <i class="fa-solid fa-truck fa-xl"></i>
                 </div>
-                <input
-                  type="radio"
-                  name="shipping"
-                  id="prio-shipping"
-                  value="prio-shipping"
-                />
+                <input type="radio" name="shipping" value="prio-shipping" />
                 <span class="checkmark"></span>
               </label>
             </div>
           </div>
           <h2>3. Choose payment method</h2>
-          <div class="payment-method">
+          <div class="payment-method" tabindex="0">
             <div>
               <label
                 class="radio-container"
@@ -331,12 +321,7 @@
                 <div>
                   <i class="fa-regular fa-credit-card fa-xl"></i>
                 </div>
-                <input
-                  type="radio"
-                  name="payment"
-                  id="card-payment"
-                  value="card-payment"
-                />
+                <input type="radio" name="payment" value="card-payment" />
                 <span class="checkmark"></span>
               </label>
             </div>
@@ -353,7 +338,7 @@
                 <div>
                   <i class="fa-brands fa-paypal fa-xl"></i>
                 </div>
-                <input type="radio" name="payment" id="paypal" value="paypal" />
+                <input type="radio" name="payment" value="paypal" />
                 <span class="checkmark"></span>
               </label>
             </div>
