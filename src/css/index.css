@@ -50,9 +50,25 @@ a {
   color: var(--color-white);
 }
 
-header a:hover,
 footer a:hover {
   border-bottom: 1px solid var(--color-white);
+}
+
+header a:after {
+  display: block;
+  content: "";
+  border-bottom: 1px solid var(--color-white);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+
+header a:hover:after {
+  transform: scaleX(1);
+}
+
+.logo a:after {
+  border-bottom: none;
 }
 
 h1 {
